@@ -1,0 +1,67 @@
+     .app {
+         position: relative;
+     }
+
+     #scroll-dom ul {
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 6rem;
+         width: 2.8rem;
+     }
+
+     #scroll-dom {
+         position: absolute;
+         left: .16rem;
+         top: 1rem;
+         width: 2.8rem;
+         height: 3.6rem;
+         color: #fff;
+         background: #ff0;
+         overflow: hidden;
+
+     }
+
+     #scroll-dom ul {
+         text-align: center;
+         width: 2.8rem;
+     }
+
+     #scroll-dom ul li {
+         height: 1rem;
+         width: 2.8rem;
+         margin: .1rem 0;
+         padding: .1rem;
+         float: left;
+
+         position: relative;
+         display: block;
+     }
+
+     #scroll-dom ul li div {
+         content: '';
+         height: 1rem;
+         width: 2.8rem;
+         background: #8e1b00;
+         top: 0;
+         left: 0;
+         opacity: .4;
+         /* z-index: -1; */
+         position: absolute;
+         border-radius: 1rem;
+     }
+
+     #scroll-dom ul li em {
+         /* margin: auto; */
+         font-size: .3rem;
+         padding: .1rem;
+         color: #fff;
+         display: block;
+         height: 1rem;
+         width: 2.8rem;
+         top: 0;
+         left: 0;
+         position: absolute;
+         /* background:transparent; */
+
+     }
